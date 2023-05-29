@@ -1,7 +1,174 @@
 ul { 
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+  padding: 30px
 }
  a {
   text-decoration: none;
+  color: black
  }
+
+ body {
+  margin: 0 1em;
+  background-color:rgb(227, 227, 227);
+  /* color: white */
+ }
+
+ img {
+  height: 200px;
+  width: 200px;
+}
+
+.div{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.desc{
+  width: 200px;
+}
+
+.prod{
+  margin: 10px 20px;
+  width: 220px;
+  border: 0.5px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.large{
+  height: 100%;
+  width: 100%; 
+  
+}
+
+.imgcont{
+  width: 500px;
+  height: 500px;
+  margin-right: 50px;
+}
+
+.specs{
+  display: flex;
+  justify-content: space-between;
+  height: 500px
+  
+}
+
+.text{
+  /* text-align: right; */
+  margin-right: 100px;
+  width: 400px;
+  /* height: 500px; */
+}
+.text > * {
+  /* text-align: right; */
+  margin-bottom: 30px;
+  margin-top: 0
+}
+
+.stock{
+  margin-bottom: 0;
+}
+
+.circle{
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  margin: 10px 30px 10px 0;
+  
+  
+}
+
+.pink{
+  background-color: magenta;
+}
+
+.purple{
+  background-color: purple;
+}
+
+.black{
+  background-color: black;
+}
+
+.colours{
+  display: flex;
+}
+
+.colourcont{
+  background-color: white;
+  padding: 10px;
+  height: 100px;
+  border-radius: 5px;
+
+}
+.colourcont > p{
+  margin-top: 0;
+}
+button {
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+  font-size: larger;
+}
+
+/* .counter {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  
+  border-radius: 100px;
+  position: absolute;
+  left: 5px;
+  bottom: 10px
+
+} */
+.counter{
+  position: relative;
+}
+.counter > p {
+
+  /* /* height: 15px; */
+  width: 19px;
+  background-color: rgb(255, 255, 255);
+  border: .2px solid black;  
+  border-radius: 100px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  text-align: center;
+
+}
+ul > a {
+  height: 20px;
+}
+
+.cart { 
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 800px;
+  text-align: center;
+}
+
+.total {
+  text-align: right;
+  width: 800px;
+}
+
+.cart > img { 
+  height: 200px;
+  width: 200px;
+}
+.cartdiv :not(h3){
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
